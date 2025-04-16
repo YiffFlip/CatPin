@@ -79,6 +79,8 @@ dependencies {
     // Kotlin (если используете Kotlin)
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.8.22")
 
+    implementation("com.google.android.material:material:1.6.0")
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
